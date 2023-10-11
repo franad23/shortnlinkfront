@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --Charcoal-: #2C3E50;
+  --ForestGreen-: #228B22;
+  --AntiFlashWhite-: #ECF0F1;
+  --Gold-: #FFD700;
+  --Crimson-: #DC143C;
+  --BlackOlive-: #232E21;
+  background-color: var(--Charcoal-);
+  color: var(--AntiFlashWhite-);
+}
+.titleInputShared{
+  font-weight: lighter;
+}
+.inputSharedMainContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.inputShared {
+  height: 30px;
+  border-radius: 2px;
+  padding: 0px 10px;
+  background-color: var(--AntiFlashWhite-);
+  outline: none;
+}
